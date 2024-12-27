@@ -1,0 +1,92 @@
+/* Genel sayfa stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(alpler.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Başlık */
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Arama çubuğu */
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    transition: background 0.3s;
+    font-weight: bold
+  }
+  
+  .search-bar button:hover {
+    background-color: #ffc107;
+    color: #fff
+  }
+  
+  /* Pokémon bilgisi */
+  .pokemon-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pokemon-info h2 {
+    font-size: 20px;
+    color: #555;
+    text-transform:uppercase;
+  }
+  
+  .pokemon-info img {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    background-color: #fff;
+  }
+  
+  .pokemon-info p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+  }
+  
